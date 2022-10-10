@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Zaguate World</title>
+    <meta name="description" content="El Website de los Zaguates" />
+    <meta name="keywords" content="Zaguate, perro, perrito, adoptar" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/zaguates.css" />
+
+</head>
+
+<body>
+    <div id="container">
+        <img id = "sun" src="images/sun.png" alt="sunshine">
+
+        <div id="main">
+            <!--Cabecera-->
+            <header>
+                <img src="images/logo.png" alt="">
+            </header>
+
+            <!--Navegacion-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="conciencia.html">Conciencia</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+
+                    <li class="dropdown">
+                        <a href="">
+                            Adoptar
+                            <div class="dropdown-content">
+                                <a href="peque.html">Pequeños</a>
+                                <a href="med.html">Medianos</a>
+                                <a href="gra.html">Grandes</a>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <article>
+                    <h1>Zaguates Grandes en adopcion:</h1>
+                    <p>
+                        Si estas buscando zaguates grandes para adoptar, no te pierdas esta oportunidad:
+                    </p>
+
+                </article>
+                <table class = "table">
+                    <caption>Disponibles</caption>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Genero</th>
+                        <th>Edad</th>
+                        <th>Descripcion</th>
+                        <th>Foto</th>
+                    </tr>
+
+                    <tr class = "a">
+                        <td>Manchas</td>
+                        <td>Hembra</td>
+                        <td>7 años</td>
+                        <td>Hiperactiva</td>
+                        <td><img src="images/Manchas.jpg" alt=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>Brincos</td>
+                        <td>Macho</td>
+                        <td>3 años</td>
+                        <td>Saltarin</td>
+                        <td><img src="images/Filomena.jpg" alt=""></td>
+                    </tr>
+
+                    <tr  class = "a">
+                        <td>Pepito</td>
+                        <td>Macho</td>
+                        <td>5 años</td>
+                        <td>Animado</td>
+                        <td><img src="images/lucy.jpg" alt=""></td>
+                    </tr>
+                    
+                </table>
+            </main>
+
+            <!--Pie de Página-->
+            <footer>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="conciencia.html">Conciencia</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                </ul>
+                <div id="dat"> </div>
+                <script>
+                    document.getElementById("dat").innerHTML = new Date().toDateString();
+                </script>
+                <credit>&copy; Copyright Zaguate World</credit>
+            </footer>
+        </div>
+    </div>
+
+    <div></div>
+
+</body>
+</html>
